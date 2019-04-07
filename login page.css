@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('http://www.webeyn.com/wp-content/uploads/blog.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-color: hsl(210, 60%, 15%);
+}
+
+#or {
+  font-size: 1rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 1.5rem;
+  left: 50%;
+  color: grey;
+  cursor: default;
+}
+
+#sign_up {
+  font-size: 1.1rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 1rem;
+  color: grey;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.box {
+  width: 19rem;
+  padding: 2.5rem;
+  padding-bottom: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #121a1c;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.box h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: default;
+}
+
+.box input[type = 'text'], .box input[type = 'password'] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 1.5rem auto;
+  text-align: center;
+  border: 2px solid #97142B;
+  padding: 0.9rem 0.8rem;
+  width: 12.5rem;
+  outline: none;
+  color: white;
+  border-radius: 1.5rem;
+  transition: 0.25s;
+}
+
+.box input[type = 'text']:focus, .box input[type = 'password']:focus {
+  width: 17.5rem;
+  border-color: #00FF7F;
+}
+
+.box input[type='submit'] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 1.5rem auto;
+  text-align: center;
+  border: 2px solid #00FF7F;
+  padding: 0.6rem 0.6rem;
+  width: 8rem;
+  outline: none;
+  color: white;
+  border-radius: 1.5rem;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type='submit']:hover {
+  background: hsla(150, 50%, 50%, 0.4);
+}
+
+#footer {
+  font-size: 1rem;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+  right: 0;
+  cursor: default;
+}
